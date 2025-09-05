@@ -5,6 +5,7 @@ body {
     padding: 0;
     background: linear-gradient(to bottom, #f0f4f8, #d9e4ec);
     color: #333;
+    scroll-behavior: smooth; /* 🚀 Scroll suave */
 }
 
 /* Encabezado */
@@ -102,4 +103,5 @@ footer {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
+
 
