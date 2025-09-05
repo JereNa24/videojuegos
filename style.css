@@ -53,8 +53,29 @@ section {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* 📌 Lista de juegos */
+article {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+article:last-child {
+    border-bottom: none;
+}
+
+article h3 {
+    color: #1a2a6c;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
 /* Animación en imágenes de videojuegos */
 article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     border-radius: 10px;
 }
@@ -62,6 +83,28 @@ article img {
 article img:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* 📌 Tabla de resumen */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #1a2a6c;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
 }
 
 /* Efecto en enlaces */
@@ -103,5 +146,6 @@ footer {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
+
 
 
